@@ -1,0 +1,14 @@
+push local repo to github
+-------------------------
+git remote add origin https://github.com/NileshPPatel/GitGithubMasterclass.git
+
+git push origin master
+
+
+pull to local repo from github
+------------------------------
+git pull origin master
+
+git branch --set-upstream-to=origin/master master
+git pull
+
